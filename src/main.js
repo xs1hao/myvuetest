@@ -2,6 +2,11 @@
 import Vue from 'vue/dist/vue.esm.js'
 import router from './router/index.js'
 import App from './App';
+import Directives from './components/directive';
+import Filters from './components/filters';
+
+Vue.use(Directives);
+Vue.use(Filters);
 
 new Vue({
     el: '#app',
