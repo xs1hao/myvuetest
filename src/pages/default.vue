@@ -1,6 +1,5 @@
 <template>
   <div class="container">
-
     In default component~
     <model-component></model-component>
   </div>

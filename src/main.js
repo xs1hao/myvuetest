@@ -20,10 +20,11 @@ import './assets/style.less';
 Vue.use(Directives);
 Vue.use(Filters);
 
-new Vue({
+var vm = new Vue({
     el: '#app',
     router, // 将路由挂载到根实例上；
     // components: { App },
     // template: '<App/>',
     render: h => h(App)
 })
+window.vm = vm;

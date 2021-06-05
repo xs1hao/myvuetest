@@ -1,7 +1,7 @@
 <template>
   <div class="counter">
      <p>
-         {{this.count}}
+         {{this.num}}
      </p>
     <button @click="add()">加一个</button>
     <button @click="sub()">减一个</button>
@@ -31,15 +31,16 @@ export default {
   },
   data() {
     return {
-        
+        num: 17
     }
   },
   methods: {
       add(){
-          this.count++;
+          console.log('In counter_component',this);
+          this.num++;
       },
       sub(){
-          this.count--;
+          this.num--;
       },
       pLog() {
           this.$emit('parent-log', this.names)
