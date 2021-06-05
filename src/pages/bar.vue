@@ -18,10 +18,10 @@
 </template>
 
 <script>
-import Counter from './counter/counter.vue'
+import Counter from '../components/counter/counter.vue'
 import { Person } from '../mixins/mixins'
-import FunctionctionalButton from './functionalComponent/FunctionalButton'
-import JsxComponent from './jsxComponent/index.jsx'
+import FunctionctionalButton from '../components/functionalComponent/FunctionalButton'
+import JsxComponent from '../components/jsxComponent/index.jsx'
 
 
 export default {

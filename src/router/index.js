@@ -3,9 +3,9 @@ import Vue from 'vue/dist/vue.esm.js'
 import VueRouter from 'vue-router'
 import Parent from '../pages/parent.vue';
 import Home from '../pages/home';
-import Default from '../components/default';
-import Bar from '../components/bar';
-import Foo from '../components/foo';
+import Default from '../pages/default';
+import Bar from '../pages/bar';
+import Foo from '../pages/foo';
 
 Vue.use(VueRouter);
 
