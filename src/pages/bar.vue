@@ -23,7 +23,6 @@ import { Person } from '../mixins/mixins'
 import FunctionctionalButton from '../components/functionalComponent/FunctionalButton'
 import JsxComponent from '../components/jsxComponent/index.jsx'
 
-
 export default {
   mixins: [Person],
   name: 'BarHaHa',
